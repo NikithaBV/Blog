@@ -8,13 +8,13 @@
             <textarea v-model.lazy.trim="blog.content"></textarea>
             <div id="checkboxes">
                 <p>Blog Categories:</p>
-                <label>Ninjas</label>
+                <label>Kannada</label>
                 <input type="checkbox" value="ninjas" v-model="blog.categories" />
-                <label>Wizards</label>
+                <label>English</label>
                 <input type="checkbox" value="wizards" v-model="blog.categories" />
-                <label>Mario</label>
+                <label>Hindi</label>
                 <input type="checkbox" value="mario" v-model="blog.categories" />
-                <label>Cheese</label>
+                <label>other</label>
                 <input type="checkbox" value="cheese" v-model="blog.categories" />
             </div>
             <label>Author:</label>
